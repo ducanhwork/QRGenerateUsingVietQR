@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QR Code Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="formInput">
+      <div class="title">
+        <h1>Enter Amount to Generate QR Code:</h1>
+      </div>
+      <div class="form">
+        <span>Amount</span>
+        <input type="number" name="amount" placeholder="Enter amount" required/>
+        <span>Bank</span>
+        <select name="bank" class="select-bank" required>
+          <option value="default">Select Bank</option>
+          <!-- Add more options as needed -->
+        </select>
+        <span>Account Number</span>
+        <input
+          type="accountNo"
+          name="accountNo"
+          placeholder="Enter account number"
+        />
+        <span>Name</span>
+        <input type="text" name="accountName" placeholder="Enter account name" required/>
+        <span>Information</span>
+        <input type="text" name="addInfo" required/>
+        <br />
+        <button id="generateButton">Generate QR Code</button>
+      </div>
+    </div>
+    <div id="qrcode"></div>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

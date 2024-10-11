@@ -1,0 +1,33 @@
+#formInput, #qrcode{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.title {
+    width: 100%;
+    text-align: center;
+    color: cadetblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 50px 20px;
+    border : 1px solid rgb(54, 69, 32);
+    border-radius: 5px;
+}
+.form input,select{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(54, 69, 32);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    font-family: Arial, sans-serif;
+}
+#qrcode .image{
+    display: flex;
+    justify-content: center;
+}
