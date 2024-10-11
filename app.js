@@ -1,5 +1,5 @@
 //using your own apikey
-import apikey from './private/api.js'
+import apikey from '/api.js'
 const x_client_key = apikey.xclientkey;
 const api_key = apikey.apikey;
 // Define the URL and headers for the API request
